@@ -1,22 +1,9 @@
 # EUDIW issuer
 
-:heavy_exclamation_mark: **Important!** Before you proceed, please read
-the [EUDI Wallet Reference Implementation project description](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md)
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+## Project Tags
 
-
-The EUDIW issuer implements the PID and mDL provider backend (as defined in the issuing-mdl and issuing-pid repositories) and includes the functionalities of the following components:
-
-
-| Component |    API  Documentation      |
-|----------|-------------|
-| PID/mDL OID4VCI with dynamic registration | [API](api_docs/pid_oidc_auth.md) |
-| PID/mDL OID4VCI without dynamic registration | [API](api_docs/pid_oidc_no_auth.md) |
-| CBOR Formatter | [API](api_docs/cbor_formatter.md)  |
-| SD-JWT VC Formatter |  |
-| Document Signer |  |
-
+- `Protocol`
 
 ## 1. Installation
 
