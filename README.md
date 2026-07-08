@@ -1,9 +1,19 @@
 # EUDIW issuer
 
+:heavy_exclamation_mark: **Important!** Before you proceed, please read
+the [EUDI Wallet Reference Implementation project description](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md)
 
-## Project Tags
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-- `Protocol`
+The EUDIW issuer implements the PID and mDL provider backend (as defined in the issuing-mdl and issuing-pid repositories) and includes the functionalities of the following components:
+
+| Component |    API  Documentation      |
+|----------|-------------|
+| PID/mDL OID4VCI with dynamic registration | [API](api_docs/pid_oidc_auth.md) |
+| PID/mDL OID4VCI without dynamic registration | [API](api_docs/pid_oidc_no_auth.md) |
+| CBOR Formatter | [API](api_docs/cbor_formatter.md)  |
+| SD-JWT VC Formatter |  |
+| Document Signer |  |
 
 ## 1. Installation
 
@@ -13,7 +23,6 @@ Pre-requisites:
 + Flask v. 2.3 or higher
 
 Click [here](install.md) for detailed installation instructions.
-
 
 ## 2. Run
 
@@ -38,7 +47,6 @@ Examples:
     flask --app app run --debug --cert=app/certs/certHttps.pem --key=app/certs/key.pem --host=127.0.0.1 --port=4430
     ```
 
-
 -----
 
 ## Disclaimer
@@ -53,7 +61,6 @@ The released software is a initial development release version:
 -  Users of the software must perform sufficient engineering and additional testing in order to properly evaluate their application and determine whether any of the open-sourced components is suitable for use in that application.
 -  We strongly recommend to not put this version of the software into production use.
 -  Only the latest version of the software will be supported
-
 
 ## How to contribute
 
@@ -77,3 +84,12 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Project Metadata
+
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/eudi-srv-web-issuing-eudiw-py` |
+| Categories | `Protocol` |
+| Primary stack | JavaScript, Python, HTML, CSS |
+
